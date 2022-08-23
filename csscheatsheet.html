@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="css/style.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+    <title>CSS cheatsheet</title>
+</head>
+<body>
+    <header><h1>CSS Cheatsheet</h1></header>
+        <nav>
+        <ul>
+            <li><a href="index.html">HTML Cheatsheet</a></li>
+            <li><a href="csscheatsheet.html">CSS Cheatsheet</a></li>
+            <li><a href="#">JavaScript Cheatsheet</a></li>
+        </ul>
+    </nav>
+    <h2>Position <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/position" target="_blank">-MDN-</a></h2>
+    <section>
+        <h3>Static</h3>
+        <div class="box"></div>
+        <div id="static" class="box"></div>
+        <div class="box"></div>
+        <p>Static is the default for the positon property. 
+            without defining the position of an element, it is positioned according to the normal flow of an HTML element.</p>
+    </section>
+    <section>
+        <h3>Relative</h3>
+        <div class="box"></div>
+        <div id="relative" class="box"></div>
+        <div class="box"></div>
+        <p>The relative value allows an element to be positioned relative to where it would have originally been on a web page.
+            Its position on the web page can be offset using the 'top' 'bottom' 'left' or 'right' properties. without an offset the declaration
+            will have no different on the element. (<strong>Note</strong> how that there is still a space saved for the element between the boxes.)
+        </p>
+    </section>
+    <section>
+        <h3>Absolute</h3>
+        <div class="box"></div>
+        <div id="absolute" class="box"></div>
+        <div class="box"></div>
+        <p>This declaration removes the element from the normal flow of the document and all other elements act as if it is not 
+            present on the web page. its position can be offset using the 'top' 'bottom' 'left' or 'right' properties. (<strong>Note</strong> that
+            there is no space left for the element in this section.)
+        </p>
+    </section>
+    <section>
+        <h3>Fixed</h3>
+        <p>This declaration fixes an element to a specific position on the page (regardless of user scrolling). 
+            its position can be offset using the 'top' 'bottom' 'left' or 'right' properties. (there is no example for this declaration on 
+        this page. It would make it hard to read!) <a href="../cheatsheet/fixed.html">Click here</a> to view fixed positioning.</p>
+    </section>
+    <section id="overflow">
+        <h3>Sticky</h3>
+        <div class="box"></div>
+        <div id="sticky" class="box"></div>
+        <div class="box"></div>
+        <p>This declaration is positioned according to the normal flow of the document but it's position 'sticks' to its nearest ancestor
+            that has a scrolling mechanism.
+        </p>
+        <p>There is a lot of text here to demonstrate how this declaration works.</p>
+        <p>Don't mind me! just hanging out!</p>
+        <p>Getting cramped in here!</p>
+        <p>Just a few more...</p>
+        <p>Just a few more...</p>
+        <p>And here we are!</p>
+    </section>
+    <h2>Skeuomorphism & Flat Design</h2>
+    <section id="button-section">
+        <div class="button" id="skeuomorphic">
+            Skeuomorphic
+        </div>
+        <div class="button" id="flat">
+            Flat
+        </div>
+        <div>
+            <h3>Skeuomorphic</h3>
+            <p>Skeuomorphism is a design concept aimed to make items on the web or on mobile, resemble items in the real world.
+            The button in the example is designed to resemble a real life button using CSS properties.
+            </p>
+        </div>
+        <div>
+            <h3>Flat design</h3>
+            <p>Flat design is a more of a simplistic design concept. In UX design, developers must rely on styling and signifiers to
+                indicate what it is they are trying to create. </p>
+        </div>
+    </section>
+    
+</body>
+</html>

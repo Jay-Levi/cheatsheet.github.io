@@ -1,0 +1,168 @@
+/*General styling*/
+
+body {
+    font-family: 'Lato', sans-serif;
+    background-color: gainsboro;
+}
+
+header {
+    width: 200px;
+    margin: 0;
+}
+
+h1 {
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+section {
+    height: 300px;
+    width: 800px;
+    border: 3px solid black;
+    margin-bottom: 3px;
+    overflow: scroll;
+}
+
+a {
+    text-decoration: none;
+}
+
+/*Navigation*/
+
+nav {
+    display: inline-block;
+}
+
+nav li {
+    width: 100px;
+    height: 50px;
+    list-style: none;
+    display: inline-block;
+    text-align: center;
+    margin: 5px;
+    background-color: rgb(145, 145, 145);
+    border-radius: 5px;
+}
+
+nav li:hover {
+    background-color: rgb(196, 196, 196);
+    text-decoration: underline;
+}
+
+nav li:active {
+    background-color: rgb(145, 145, 145);
+}
+
+/*HTML Cheatsheet*/
+
+table {
+    margin: 0 auto;
+}
+
+thead {
+    background-color: rgb(89, 89, 89);
+    color: aliceblue;
+}
+
+td {
+    height: 50px;
+}
+
+.stripe {
+    background-color: rgb(184, 184, 184);
+}
+
+
+/* CSS Cheatsheet*/
+
+/*box positioning*/
+
+.box {
+    display: inline-block;
+    background-color: red;
+    border: 3px solid black;
+    width: 75px;
+    height: 75px;
+    margin: 15px;
+}
+
+#overflow {
+    overflow: scroll;
+}
+
+#relative {
+    position: relative;
+    left: 70px;
+    top: 10px;
+}
+
+#absolute {
+    position: absolute;
+    left: 60px;
+    top: 935px;
+}
+
+#sticky {
+    position: sticky;
+    top: 20px;
+}
+
+#fixed {
+    position: fixed;
+    margin-left: 150px;
+}
+
+#long-section {
+    height: 1000px;
+}
+
+/* buttons */
+
+.button {
+    height: 50px;
+    width: 200px;
+    align-items: center;
+    margin-bottom: 25px;
+    display: inline-block;
+    margin-top: 35px;
+    text-align: center;
+    line-height: 50px;
+}
+
+#button-section {
+    overflow: scroll;
+}
+
+#skeuomorphic {
+    background-color: rgb(225, 16, 16);
+    box-shadow: 2px 2px 2px rgb(125, 45, 45);
+    border-radius: 5px;
+    color: white;
+    position: relative;
+    left: 75px;
+}
+
+#skeuomorphic:hover {
+    background-color: rgba(246, 64, 64, 0.963);
+    box-shadow: inset;
+}
+
+#skeuomorphic:active {
+    box-shadow: inset 2px 2px 2px rgb(125, 45, 45) ;
+}
+
+#flat {
+    background-color: rgb(225, 16, 16);
+    color: white;
+    border-radius: 5px;
+    position: relative;
+    left: 280px;
+}
+
+#flat:hover {
+    background-color: rgba(246, 64, 64, 0.963);
+}
+
+#flat:active {
+    background-color: rgb(125, 45, 45);
+}
